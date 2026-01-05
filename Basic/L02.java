@@ -1,5 +1,5 @@
 package Basic;
-public class Basic {
+public class L02 {
     public static void main(String[] args) {
         int num1 = 7;
         int num2 = 5;
