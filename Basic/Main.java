@@ -36,17 +36,17 @@ public class Main {
         System.out.print("Enter One Number:");
         int B = sc.nextInt();
 
-        int SUM = A + B;
-        System.out.print("Sum of the Number = " + sum);
+        int add = A + B;
+        System.out.print("Sum of the Number = " + add);
         sc.close();
 
         // TYPE CONVERSION AND CASTING
-        byte NUM = 125;
-        int NUM2 = 257;
-        byte k = (byte)NUM2;
-        float f = 5.6f;
-        int t = (int) f;
-        System.out.println(t);
+        // byte NUM = 125;
+        // int NUM2 = 257;
+        // byte k = (byte)NUM2;
+        // float f = 5.6f;
+        // int t = (int) f;
+        // System.out.println(t);
 
 
         // Type Promotion
@@ -56,7 +56,6 @@ public class Main {
         // We are performing operation on multiply byte into byte and the output is greater the the size of byte so we can store in int datatype
         int Result = val * val2;
         System.out.println(Result);
-        */
 
     }
 }
