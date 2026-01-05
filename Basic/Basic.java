@@ -1,3 +1,4 @@
+package Basic;
 public class Basic {
     public static void main(String[] args) {
         int num1 = 7;
@@ -10,7 +11,7 @@ public class Basic {
         num += 1;
         num++; //post - increment --> Fetch the value and then increment
         ++num; //pre - increment  --> First increment and then fetch the value
-        num--; // decrement
+        num--; //decrement
         System.out.print(Result);
     }
 }
